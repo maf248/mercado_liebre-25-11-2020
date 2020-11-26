@@ -1,0 +1,120 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+}
+.logo {
+    width: 50%;
+}
+.logo-imagen {
+    width: 100%;
+}
+.buscador {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.navbar {
+    display: none;
+}
+.barraSuperior {
+    width: 100%;
+    height: auto;
+    background-color: #eac926;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.barraSuperior p {
+    align-self: flex-start;
+    width: 100%;
+    margin-bottom: 10px;
+}
+.menu {
+    box-sizing: border-box;
+    height: 40px;
+    width: 40px;
+    background-color: #0044AA;
+    color: white;
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+.menu:hover {
+    background-color: #0022AA;
+    cursor: pointer;
+}
+.banner {
+    display: block;
+    width: 100%;
+}
+.ultimaVisita, .ofertas {
+    display: flex;
+    flex-direction: row;
+}
+@media (max-width: 500px) {
+    .ultimaVisita, .ofertas {
+        flex-direction: column;
+    }
+}
+.titulo {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 90%;
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: lightgray;
+    border-radius: 50px;
+    text-align: center;
+}
+.producto {
+    padding: 15px;
+    margin: 20px;
+    border-top: 1px solid #ebebeb;
+    display: flex;
+    flex-direction: column;
+}
+.producto img {
+    width: 100%;
+}
+.producto i {
+    margin: 5px;
+    display: block;
+    text-align: right;
+    color: green;
+}
+.producto-precio {
+    width: 30%;
+    display: inline-block;
+}
+.producto-descuento {
+    width: 65%;
+    display: inline-block;
+    color: green;
+}
+.producto-titulo {
+    margin-top: 15px;
+}
+footer {
+    padding: 20px 5% 20px 5%;
+    background-color: #ebebeb;
+    border-radius: 20px;
+    text-align: center;
+    justify-content: space-evenly;
+    transform: scale(0.8);
+}
+.piePag {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.iconos {
+    width: 40px;
+    height: 40px;
+}
